@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@147&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li id="poke-ball"><img src="./favicon.ico"></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/search.html">Search</a></li>
+            <li><a href="./pages/deck.html">Deck</a></li>
+        </ul>
+    </div>
+    
+    <h1 id="banner">POKEMON GO!</h1>
+    <h2 id="press-start">Press to Start</h2>
+
+    <!-- Add the card-container wrapper -->
+    <div class="card-container">
+        <div class="card">
+            <div class="card-header">
+                <p id="pokemonName">Pokemon</p>
+                <p id="pokemonNumber">#001</p>
+            </div>
+            
+            <div class="card-image">
+                <img src="./styles/pokemon_card_backside.png" alt="Card Image">
+            </div>
+            
+            <div class="card-types">
+                <span id="type1" class="type-badge">Type</span>
+                <span id="type2" class="type-badge">Type</span>
+            </div>
+            
+            <div class="content-container">
+                <p><strong>Abilities:</strong></p>
+                <p id="ability1">Ability 1</p>
+                <p id="ability2">Ability 2</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/index.mjs"></script>
+</body>
+</html>

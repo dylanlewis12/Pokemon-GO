@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../styles/deck.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@147&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a href="./deck.html">Deck</a></li>
+        </ul>
+    </div>
+    <h1 id="banner">POKEMON GO!</h1>
+
+     <div class="card-binder">
+        <!-- Card container for search results -->
+        <div class="card-container"></div>
+        
+        <button id="delete-btn">Clear Deck</button>
+    </div>
+
+    <script src="../scripts/deck.mjs"></script>
+</body>
+</html>

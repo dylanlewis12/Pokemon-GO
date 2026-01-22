@@ -81,8 +81,14 @@ ul {
     gap: 15px;
 }
 
-ul li:first-child {
-    margin-left: auto;
+#poke-ball img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+ul li:nth-child(2){
+    margin-left: auto
 }
 
 ul li {
